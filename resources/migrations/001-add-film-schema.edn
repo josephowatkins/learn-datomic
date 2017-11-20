@@ -1,0 +1,13 @@
+{:up [{:db/ident :film/title
+        :db/valueType :db.type/string
+        :db/cardinality :db.cardinality/one
+       :db/doc "The title of the film"}
+      {:db/ident :film/genre
+       :db/valueType :db.type/string
+       :db/cardinality :db.cardinality/one
+       :db/doc "The genre of the film"}
+      {:db/ident :film/release-year
+       :db/valueType :db.type/long
+       :db/cardinality :db.cardinality/one
+       :db/doc "The year the film was released in cinemas"}]
+ :down []}
